@@ -1,0 +1,118 @@
+[
+  {
+    "id":"misti-player",
+    "name":"Misti Player",
+    "category":"Music",
+    "version":"1.0.0",
+    "size":"20 MB",
+    "android":"Android 8+",
+    "icon":"https://placehold.co/512x512/11111a/9d7cff?text=M",
+    "download":"https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest/download/misti-player.apk",
+    "features":["Offline Music","Background Play","Playlists","Dark UI"],
+    "i18n":{
+      "en":{
+        "name":"Misti Player",
+        "description":"A clean and modern offline music player for Android."
+      },
+      "tk":{
+        "name":"Misti Player",
+        "description":"Android üçin arassa we döwrebap offline aýdym-saz pleýeri."
+      },
+      "ru":{
+        "name":"Misti Player",
+        "description":"Современный офлайн музыкальный плеер для Android."
+      },
+      "tr":{
+        "name":"Misti Player",
+        "description":"Android için modern ve sade bir çevrimdışı müzik oynatıcı."
+      }
+    }
+  },
+  {
+    "id":"nebula-video",
+    "name":"NEBULA VIDEO",
+    "category":"Video",
+    "version":"1.0.0",
+    "size":"25 MB",
+    "android":"Android 8+",
+    "icon":"https://placehold.co/512x512/0b1018/5ee7ff?text=N",
+    "download":"https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest/download/nebula-video.apk",
+    "features":["Cinema Mode","Gesture Control","Mini Player","Smart Resume"],
+    "i18n":{
+      "en":{
+        "name":"NEBULA VIDEO",
+        "description":"A futuristic video player focused on smooth playback and cinematic controls."
+      },
+      "tk":{
+        "name":"NEBULA VIDEO",
+        "description":"Smooth wideo görkezmek we kino görnüşli dolandyryş üçin futuristik wideo pleýer."
+      },
+      "ru":{
+        "name":"NEBULA VIDEO",
+        "description":"Футуристичный видеоплеер с плавным воспроизведением и киношными функциями."
+      },
+      "tr":{
+        "name":"NEBULA VIDEO",
+        "description":"Akıcı oynatma ve sinematik kontroller sunan futuristik video oynatıcı."
+      }
+    }
+  },
+  {
+    "id":"share-messenger",
+    "name":"SHARE Messenger",
+    "category":"Social",
+    "version":"1.0.0",
+    "size":"30 MB",
+    "android":"Android 7+",
+    "icon":"https://placehold.co/512x512/10161a/63e6be?text=S",
+    "download":"https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest/download/share-messenger.apk",
+    "features":["Messaging","Stories","Profiles","Notifications"],
+    "i18n":{
+      "en":{
+        "name":"SHARE Messenger",
+        "description":"A modern social messenger for chatting and sharing with friends."
+      },
+      "tk":{
+        "name":"SHARE Messenger",
+        "description":"Dostlaryň bilen habarlaşmak we paýlaşmak üçin döwrebap messenger."
+      },
+      "ru":{
+        "name":"SHARE Messenger",
+        "description":"Современный мессенджер для общения и обмена контентом."
+      },
+      "tr":{
+        "name":"SHARE Messenger",
+        "description":"Arkadaşlarla mesajlaşmak ve içerik paylaşmak için modern messenger."
+      }
+    }
+  },
+  {
+    "id":"velix-ai",
+    "name":"Velix AI",
+    "category":"AI",
+    "version":"1.0.0",
+    "size":"15 MB",
+    "android":"Android 7+",
+    "icon":"https://placehold.co/512x512/151019/cb8cff?text=V",
+    "download":"https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest/download/velix-ai.apk",
+    "features":["AI Chat","Multiple Models","Fast UI","Premium"],
+    "i18n":{
+      "en":{
+        "name":"Velix AI",
+        "description":"A compact AI assistant with access to multiple AI models."
+      },
+      "tk":{
+        "name":"Velix AI",
+        "description":"Birnäçe AI modeline girip bolýan kiçi we çalt AI kömekçisi."
+      },
+      "ru":{
+        "name":"Velix AI",
+        "description":"Компактный AI-помощник с несколькими моделями."
+      },
+      "tr":{
+        "name":"Velix AI",
+        "description":"Birden fazla AI modeline sahip kompakt bir yapay zeka asistanı."
+      }
+    }
+  }
+]

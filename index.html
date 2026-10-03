@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07070b">
+<meta name="description" content="YSpace by YhlasxSpace">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<title>YSpace</title>
+</head>
+
+<body>
+<div class="bg"></div>
+<div id="ripple"></div>
+
+<header class="nav">
+  <a href="#" class="logo">Y<span>Space</span></a>
+
+  <nav>
+    <a href="#apps" data-i18n="apps">Apps</a>
+    <a href="#categories" data-i18n="categories">Categories</a>
+    <a href="#about" data-i18n="about">About</a>
+  </nav>
+
+  <div class="nav-actions">
+    <button id="langBtn" class="small-btn">EN</button>
+    <button id="themeBtn" class="small-btn">☼</button>
+    <button id="menuBtn" class="small-btn menu">☰</button>
+  </div>
+</header>
+
+<div id="mobileMenu" class="mobile-menu">
+  <a href="#apps" data-i18n="apps">Apps</a>
+  <a href="#categories" data-i18n="categories">Categories</a>
+  <a href="#about" data-i18n="about">About</a>
+  <a href="https://t.me/YhlasxSpace" target="_blank">Telegram</a>
+  <a href="https://www.tiktok.com/@yhlasxspace" target="_blank">TikTok</a>
+</div>
+
+<section class="creator glass">
+  <div>
+    <small data-i18n="creator">CREATED BY</small>
+    <strong>YhlasxSpace</strong>
+  </div>
+  <div class="socials">
+    <a href="https://t.me/YhlasxSpace" target="_blank">Telegram</a>
+    <a href="https://www.tiktok.com/@yhlasxspace" target="_blank">TikTok</a>
+  </div>
+</section>
+
+<main>
+
+<section class="hero">
+  <div class="hero-text">
+    <div class="badge">✦ YSPACE</div>
+    <h1 data-i18n="title">Your digital space.</h1>
+    <p data-i18n="subtitle">
+      Discover simple, futuristic apps created by YhlasxSpace.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#apps" class="btn primary" data-i18n="explore">Explore Apps</a>
+      <a href="#about" class="btn" data-i18n="learn">Learn More</a>
+    </div>
+  </div>
+
+  <div class="orb">
+    <div class="orb-core">Y</div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="glass stat">
+    <b id="appCount">0</b>
+    <span data-i18n="apps">Apps</span>
+  </div>
+  <div class="glass stat">
+    <b id="catCount">0</b>
+    <span data-i18n="categories">Categories</span>
+  </div>
+  <div class="glass stat">
+    <b>2026</b>
+    <span data-i18n="created">Created</span>
+  </div>
+</section>
+
+<section id="apps" class="section">
+  <div class="section-head">
+    <div>
+      <small>YSPACE</small>
+      <h2 data-i18n="appsTitle">Featured Apps</h2>
+    </div>
+
+    <input id="search" type="search" placeholder="Search apps...">
+  </div>
+
+  <div id="appsGrid" class="apps-grid"></div>
+</section>
+
+<section id="categories" class="section">
+  <div class="section-head">
+    <div>
+      <small>EXPLORE</small>
+      <h2 data-i18n="categoriesTitle">Categories</h2>
+    </div>
+  </div>
+
+  <div id="categoriesGrid" class="categories-grid"></div>
+</section>
+
+<section id="about" class="about glass">
+  <div>
+    <small>YHLASXSPACE</small>
+    <h2 data-i18n="aboutTitle">Small. Fast. Futuristic.</h2>
+    <p data-i18n="aboutText">
+      YSpace is a simple home for applications created by YhlasxSpace.
+    </p>
+  </div>
+
+  <div class="about-links">
+    <a href="https://t.me/YhlasxSpace" target="_blank">Telegram ↗</a>
+    <a href="https://www.tiktok.com/@yhlasxspace" target="_blank">TikTok ↗</a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="logo">Y<span>Space</span></div>
+  <p>© 2026 YhlasxSpace</p>
+</footer>
+
+<div id="langMenu" class="popup-menu">
+  <button data-lang="en">English</button>
+  <button data-lang="tk">Türkmençe</button>
+  <button data-lang="ru">Русский</button>
+  <button data-lang="tr">Türkçe</button>
+</div>
+
+<div id="modal" class="modal">
+  <div class="modal-box glass">
+    <button id="closeModal" class="close">×</button>
+    <img id="modalIcon" class="modal-icon">
+    <div class="modal-category" id="modalCategory"></div>
+    <h2 id="modalName"></h2>
+    <p id="modalDescription"></p>
+
+    <div class="meta">
+      <span id="modalVersion"></span>
+      <span id="modalAndroid"></span>
+      <span id="modalSize"></span>
+    </div>
+
+    <div id="modalFeatures" class="features"></div>
+
+    <a id="downloadBtn" class="btn primary download" href="#" target="_blank">
+      ↓ <span data-i18n="download">Download APK</span>
+    </a>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
