@@ -62,10 +62,10 @@
     "name":"SHARE Messenger",
     "category":"Social",
     "version":"1.0.0",
-    "size":"30 MB",
-    "android":"Android 7+",
+    "size":"20 MB",
+    "android":"Android 8+",
     "icon":"https://placehold.co/512x512/10161a/63e6be?text=S",
-    "download":"https://github.com/yhlasj698-dev/yspace/releases/download/v1.0.0/Share.Messsenger-6.apk",
+    "download":"https://drive.google.com/file/d/1ti9pHuYhHh-Nki3dH_aNTB4K1Kb-SyhT/view?usp=drivesdk",
     "features":["Messaging","Stories","Profiles","Notifications"],
     "i18n":{
       "en":{
